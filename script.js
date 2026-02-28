@@ -138,3 +138,4 @@ function mostrarSecao(id) {
 mostrarProdutos();
 
 atualizarCarrinho();
+
