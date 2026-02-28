@@ -8,13 +8,28 @@ const emailVendas = "heitorbarreto1917@hotmail.com"; // troque se quiser
 // =====================================
 const produtos = [
   {
-    nome: "Colar Prateado",
-    preco: 50,
+    nome: "Cartela de 55 adesivos para bicicleta",
+    preco: 20,
     imagem: "https://via.placeholder.com/200"
   },
   {
-    nome: "Corrente Dourada",
-    preco: 80,
+    nome: "Boné de marca",
+    preco: 70,
+    imagem: "https://via.placeholder.com/200"
+  }
+  {
+    nome: "Punho de bicicleta",
+    preco: 20,
+    imagem: "https://via.placeholder.com/200"
+  }
+  {
+    nome: "Banco de bicicleta",
+    preco: 30,
+    imagem: "https://via.placeholder.com/200"
+  }
+  {
+    nome: "Relógio smartwatch",
+    preco: 100,
     imagem: "https://via.placeholder.com/200"
   }
 ];
@@ -121,4 +136,5 @@ function mostrarSecao(id) {
 // INICIALIZAÇÃO
 // =====================================
 mostrarProdutos();
+
 atualizarCarrinho();
