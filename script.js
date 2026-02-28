@@ -1,3 +1,4 @@
+alert("JS CARREGOU");
 // =====================================
 // CONFIGURAÇÕES
 // =====================================
@@ -139,3 +140,4 @@ document.addEventListener("DOMContentLoaded", () => {
   mostrarProdutos();
   atualizarCarrinho();
 });
+
