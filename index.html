@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GL Imports</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <h1>GL Imports</h1>
+  <nav>
+    <button onclick="mostrarSecao('produtos')">Produtos</button>
+    <button onclick="mostrarSecao('carrinho')">
+      Carrinho (<span id="contadorCarrinho">0</span>)
+    </button>
+    <button onclick="mostrarSecao('criadores')">Criadores</button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- AVISO -->
+  <section class="aviso">
+    <p>
+      Pedidos feitos por email. A entrega é combinada diretamente com o vendedor.
+      Este site é demonstrativo e informal.
+    </p>
+  </section>
+
+  <!-- PRODUTOS -->
+  <section id="produtos" class="secao">
+    <h2>Produtos</h2>
+    <div id="listaProdutos" class="grid"></div>
+  </section>
+
+  <!-- CARRINHO -->
+  <section id="carrinho" class="secao escondido">
+    <h2>Carrinho</h2>
+
+    <label>
+      Seu nome / apelido:
+      <input type="text" id="nomeCliente" placeholder="Ex: João da 6A">
+    </label>
+
+    <ul id="itensCarrinho"></ul>
+
+    <p class="total">
+      Total: R$ <span id="totalCarrinho">0</span>
+    </p>
+
+    <button onclick="finalizarPedido()">Finalizar pedido por email</button>
+    <button class="secundario" onclick="limparCarrinho()">Limpar carrinho</button>
+  </section>
+
+  <!-- CRIADORES -->
+  <section id="criadores" class="secao escondido">
+    <h2>Criadores do Site</h2>
+    <p>
+      Site desenvolvido por <strong>SirHeitor</strong> com auxílio do ChatGPT.
+    </p>
+    <a href="https://www.youtube.com/@Sir.Heitor1917" target="_blank">
+      Visitar canal no YouTube
+    </a>
+  </section>
+
+</main>
+
+<footer>
+  <p>© GL Imports – 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
