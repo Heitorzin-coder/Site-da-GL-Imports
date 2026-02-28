@@ -1,4 +1,3 @@
-alert("JS CARREGOU");
 // =====================================
 // CONFIGURAÇÕES
 // =====================================
@@ -137,7 +136,11 @@ function mostrarSecao(id) {
 // INICIALIZAÇÃO
 // =====================================
 document.addEventListener("DOMContentLoaded", () => {
-  mostrarProdutos();
-  atualizarCarrinho();
-});
+  if (document.getElementById("listaProdutos")) {
+    mostrarProdutos();
+  }
 
+  if (document.getElementById("itensCarrinho")) {
+    atualizarCarrinho();
+  }
+});
