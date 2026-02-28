@@ -102,4 +102,16 @@ footer {
   text-align: center;
   padding: 10px;
   font-size: 14px;
+
+}
+
+/* DEBUG – força aparecer */
+.grid {
+  display: grid !important;
+}
+
+.produto {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
