@@ -135,8 +135,7 @@ function mostrarSecao(id) {
 // =====================================
 // INICIALIZAÇÃO
 // =====================================
-mostrarProdutos();
-
-atualizarCarrinho();
-
-
+document.addEventListener("DOMContentLoaded", () => {
+  mostrarProdutos();
+  atualizarCarrinho();
+});
