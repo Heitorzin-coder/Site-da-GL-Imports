@@ -8,29 +8,59 @@ const emailVendas = "gglimportes@gmail.com"; // troque se quiser
 // =====================================
 const produtos = [
   {
-    nome: "Cartela de 55 adesivos para bicicleta",
+    nome: "Cartela de 55 adesivos para bicicleta (Foto Meramente Ilustrativa)",
     preco: 20,
     imagem: "55 adesivos.jpeg"
   },
   {
     nome: "Boné de marca",
     preco: 90,
-    imagem: "https://via.placeholder.com/200"
+    imagem: "boné de marca.jpeg"
   },
   {
     nome: "Punho de bicicleta",
     preco: 20,
-    imagem: "https://via.placeholder.com/200"
+    imagem: "punho de bicicleta.jpeg"
   },
   {
     nome: "Banco de bicicleta",
     preco: 30,
-    imagem: "https://via.placeholder.com/200"
+    imagem: "banco de bicicleta.jpeg"
   },
   {
     nome: "Relógio smartwatch",
     preco: 100,
-    imagem: "https://via.placeholder.com/200"
+    imagem: "relogio smartwatch.jpeg"
+  },
+  {
+    nome: "16 adesivos (Foto Meramente Ilustrativa)",
+    preco: 16,
+    imagem: "16 adesivos.jpeg"
+  },
+  {
+    nome: "Chuteira Nike Original Society (Foto Meramente Ilustrativa)",
+    preco: 290,
+    imagem: "chuteira nike original society.jpeg"
+  },
+  {
+    nome: "Patinho de guidão",
+    preco: 10,
+    imagem: "patinho de guidão.jpeg"
+  },
+  {
+    nome: "Protetor de Quadro",
+    preco: 14.99,
+    imagem: "protetor de quadro.jpeg"
+  },
+  {
+    nome: "Kit de Cordão",
+    preco: 15,
+    imagem: "kit cordão.jpeg"
+  },
+  {
+    nome: "Pézinho de Bicicleta",
+    preco: 25,
+    imagem: "relogio smartwatch.jpeg"
   }
 ];
 
@@ -144,5 +174,6 @@ document.addEventListener("DOMContentLoaded", () => {
     atualizarCarrinho();
   }
 });
+
 
 
