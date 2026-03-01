@@ -56,6 +56,11 @@ const produtos = [
     nome: "Kit de Cordão",
     preco: 15,
     imagem: "kit cordão.jpeg"
+  },
+  {
+    nome: "Pezinho de Bicicleta",
+    preco: 25,
+    imagem: "pézinho de bike.jpeg"
   }
 ];
 
@@ -169,6 +174,7 @@ document.addEventListener("DOMContentLoaded", () => {
     atualizarCarrinho();
   }
 });
+
 
 
 
