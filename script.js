@@ -1,7 +1,7 @@
 // =====================================
 // CONFIGURAÇÕES
 // =====================================
-const emailVendas = "heitorbarreto1917@hotmail.com"; // troque se quiser
+const emailVendas = "gglimportes@gmail.com"; // troque se quiser
 
 // =====================================
 // PRODUTOS (VOCÊ EDITA AQUI PELO CELULAR)
@@ -144,3 +144,4 @@ document.addEventListener("DOMContentLoaded", () => {
     atualizarCarrinho();
   }
 });
+
