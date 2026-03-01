@@ -61,7 +61,7 @@ const produtos = [
     nome: "Pézinho de Bicicleta",
     preco: 25,
     imagem: "pézinho de bike.jpeg"
-  }
+  },
 ];
 
 // =====================================
@@ -174,6 +174,7 @@ document.addEventListener("DOMContentLoaded", () => {
     atualizarCarrinho();
   }
 });
+
 
 
 
