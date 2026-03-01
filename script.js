@@ -60,7 +60,7 @@ const produtos = [
   {
     nome: "Pézinho de Bicicleta",
     preco: 25,
-    imagem: "relogio smartwatch.jpeg"
+    imagem: "pézinho de bicicleta.jpeg"
   }
 ];
 
@@ -174,6 +174,7 @@ document.addEventListener("DOMContentLoaded", () => {
     atualizarCarrinho();
   }
 });
+
 
 
 
