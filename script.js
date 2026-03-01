@@ -56,7 +56,7 @@ const produtos = [
     nome: "Kit de Cordão",
     preco: 15,
     imagem: "kit cordão.jpeg"
-  },
+  }
 ];
 
 // =====================================
@@ -169,6 +169,7 @@ document.addEventListener("DOMContentLoaded", () => {
     atualizarCarrinho();
   }
 });
+
 
 
 
