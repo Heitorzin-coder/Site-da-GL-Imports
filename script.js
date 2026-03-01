@@ -10,11 +10,11 @@ const produtos = [
   {
     nome: "Cartela de 55 adesivos para bicicleta",
     preco: 20,
-    imagem: "https://via.placeholder.com/200"
+    imagem: "55 adesivos.jpeg"
   },
   {
     nome: "Boné de marca",
-    preco: 70,
+    preco: 90,
     imagem: "https://via.placeholder.com/200"
   },
   {
@@ -144,4 +144,5 @@ document.addEventListener("DOMContentLoaded", () => {
     atualizarCarrinho();
   }
 });
+
 
