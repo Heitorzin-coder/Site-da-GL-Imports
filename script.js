@@ -62,6 +62,11 @@ const produtos = [
     preco: 25,
     imagem: "pézinho de bike.jpeg"
   },
+  {
+    nome: "Banco Selim de Grau para Bicicleta",
+    preco: 60,
+    imagem: "banco selim grau para bicicleta.jpeg"
+  },
 ];
 
 // =====================================
@@ -174,6 +179,7 @@ document.addEventListener("DOMContentLoaded", () => {
     atualizarCarrinho();
   }
 });
+
 
 
 
