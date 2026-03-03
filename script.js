@@ -67,6 +67,16 @@ const produtos = [
     preco: 60,
     imagem: "banco selim grau para bicicleta.jpeg"
   },
+  {
+    nome: "Guidom de Bicicleta Profissional",
+    preco: 79.99,
+    imagem: "guidao de bike profissional.jpeg"
+  },
+  {
+    nome: "Pedal de Ferro",
+    preco: 40,
+    imagem: "pedal de ferro.jpeg"
+  },
 ];
 
 // =====================================
@@ -179,6 +189,7 @@ document.addEventListener("DOMContentLoaded", () => {
     atualizarCarrinho();
   }
 });
+
 
 
 
